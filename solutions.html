@@ -18,6 +18,12 @@
     @media(max-width:760px){.wrap{width:min(var(--max),calc(100% - 34px))}.announcement .wrap{justify-content:center;text-align:center}.announcement .wrap span:last-child{display:none}.nav{height:72px}.brand{min-width:0}.navlinks{display:none;position:absolute;top:72px;left:0;right:0;background:white;padding:18px 24px 22px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.navright .btn{display:none}.menu{display:block}.hero-grid{grid-template-columns:1fr;padding:65px 0 55px}.hero h1{font-size:clamp(42px,11vw,60px)}.visual-stage{min-height:310px}.visual-orbit{width:290px}.monogram{width:130px;height:165px}.monogram b{font-size:62px}.float-label.one{right:0;top:25px}.float-label.two{left:0;bottom:28px}.trust-items{grid-template-columns:1fr;gap:14px;padding:20px 0}.trust-item{justify-content:flex-start}.service-grid,.knowledge-grid{grid-template-columns:1fr 1fr}.split,.advisor,.contact-grid{grid-template-columns:1fr}.brand-panel{min-height:320px;order:2}.portrait-placeholder{min-height:350px}.steps{grid-template-columns:1fr;gap:28px}.footer-grid{grid-template-columns:1fr 1fr}.footer-grid>div:first-child{grid-column:1/-1}.section-head{margin-bottom:32px}}
     @media(max-width:480px){.service-grid,.knowledge-grid,.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero-actions .btn{width:100%}.section{padding:65px 0}.form-card{padding:21px}.footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.brand-name{font-size:12px}.brand-sub{font-size:8px}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+    /* Keep insurer marks inside a consistent 5:7 portrait frame. */
+    .insurer-logo{display:block;width:100px;height:140px;max-width:100%;aspect-ratio:5/7;object-fit:contain;object-position:center;background:#fff;border:1px solid #e8e8e5;border-radius:10px;padding:10px;margin:16px 0 18px;overflow:hidden}
+    .service-card.featured .insurer-logo{background:#fff}
+    .panel-logos{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0}
+    .panel-logos img{display:block;width:78px;height:109px;max-width:100%;aspect-ratio:5/7;object-fit:contain;object-position:center;background:#fff;border:1px solid #e8e8e5;border-radius:9px;padding:8px;overflow:hidden}
+    @media(max-width:480px){.insurer-logo{width:90px;height:126px}.panel-logos img{width:70px;height:98px}}
   </style>
 </head>
 <body>
